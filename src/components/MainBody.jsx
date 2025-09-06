@@ -1,8 +1,27 @@
 import firstCollection from '../assets/image/sale-jackets.webp';
 import secondCollection from '../assets/image/sale-dresses.webp';
-import thirdCollection from '../assets/image/sale-tops.webp';  
+import thirdCollection from '../assets/image/sale-tops.webp';
+import dressesSale from '../assets/sale-collection/dresses_sale.webp';
+import womenSale from '../assets/sale-collection/women_sale.webp';
+import greenLeafsImage from '../assets/image/our-value.webp';
+import certificationsOne from '../assets/certifications/GOTS.svg';
+import certificationsTwo from '../assets/certifications/Soil_Association.svg';
+import certificationsThree from '../assets/certifications/Fashion_Revolution.svg';
+import certificationsFour from '../assets/certifications/Common_Objective.svg';
+import certificationsFive from '../assets/certifications/Weltladen.svg';
+import instafeedOne from '../assets/instafeed/Insta1.webp';
+import instafeedTwo from '../assets/instafeed/Insta2.webp';
+import instafeedThree from '../assets/instafeed/Insta3.webp';
+import instafeedFour from '../assets/instafeed/Insta4.webp';
+import instafeedFive from '../assets/instafeed/Insta5.webp';
+import instafeedSix from '../assets/instafeed/Insta6.webp';
+
+// import ReactDOM from 'react-dom';
+// import ReactSwipe from 'react-swipe';
 
 function MainBody() {
+    // let reactSwipeEl;
+
     return (
         <div className="main-body">
             <section className="hero-banner-section">
@@ -123,6 +142,262 @@ function MainBody() {
                     </div>
                 </div>
             </section>
+
+            <section className="feature_products">
+                <div className="container-fluid">
+                    <div className="row justify-content-center section-heading pb-0">
+                        <div className="col-md-8 col-sm-12 text-center">
+                            <p className="sub-title">Up To</p>
+                            <h2 className="title">50% OFF SUMMER SALE</h2>
+                        </div>
+                    </div>
+                    <div className="row justify-content-center">
+
+                        <div className="col-md-2 col-sm-6">
+                            <div className="featured-product-card">
+                                <div className="product-image">
+                                    <img src="https://nomadsclothing.com/cdn/shop/files/LN2172NAT-F_1d8e1110-9c8b-477e-b378-7337c9ced172.jpg?v=1754051643" width="100%" alt="Product" />
+                                </div>
+                                <div className="product-details">
+                                    <h5 className="product-title">Button Through Linen Dress</h5>
+                                    <span className="product-sale-price">$47.40</span>
+                                    <span className="product-regular-price">$79.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="featured-product-card">
+                                <div className="product-image">
+                                    <img src="https://nomadsclothing.com/cdn/shop/files/EM4199IVY-F.jpg?v=1754051628" width="100%" alt="Product" />
+                                </div>
+                                <div className="product-details">
+                                    <h5 className="product-title">Embroidered Viscose Top</h5>
+                                    <span className="product-sale-price">$28.00</span>
+                                    <span className="product-regular-price">$56.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="featured-product-card">
+                                <div className="product-image">
+                                    <img src="https://nomadsclothing.com/cdn/shop/files/DH2167PER-F_7f117a46-1ef4-493f-ba2b-bafcc924037b.jpg?v=1754051744" width="100%" alt="Product" />
+                                </div>
+                                <div className="product-details">
+                                    <h5 className="product-title">GOTS Organic Cotton Jersey Wrap Dress</h5>
+                                    <span className="product-sale-price">$31.00</span>
+                                    <span className="product-regular-price">$62.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="featured-product-card">
+                                <div className="product-image">
+                                    <img src="https://nomadsclothing.com/cdn/shop/files/PQ4025PAN-F_843fbf0a-b88b-43ed-b44a-a9eb1650a3a0.jpg?v=1754051318" width="100%" alt="Product" />
+                                </div>
+                                <div className="product-details">
+                                    <h5 className="product-title">GOTS Organic Cotton Top</h5>
+                                    <span className="product-sale-price">$20.40</span>
+                                    <span className="product-regular-price">$34.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="featured-product-card">
+                                <div className="product-image">
+                                    <img src="https://nomadsclothing.com/cdn/shop/files/CO1094LEF-F.jpg?crop=center&height=2250&v=1754051725" width="100%" alt="Product" />
+                                </div>
+                                <div className="product-details">
+                                    <h5 className="product-title">LENZING™ ECOVERO™ Wide Leg Jumpsuit</h5>
+                                    <span className="product-sale-price">$51.80</span>
+                                    <span className="product-regular-price">$74.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="row sec-btn">
+                        <div className="col-md-12 col-sm-12">
+                            <a href="#" className="primary-button">Shop Sale</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="sale_collection_section">
+                <div className="container-fuid">
+                    <div className="row justify-content-center">
+
+                        <div className="col-md-5 col-sm-12">
+                            <div className="sale_collection_item">
+                                <div className="sale_collection_btn">
+                                    <a href="#" className="link-button">Shop Sale Dresses</a>
+                                </div>
+                                <div className="sale_collection_image">
+                                    <img src={dressesSale} className="img-fluid" width="100%" alt="Dresses Sale" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-5 col-sm-12">
+                            <div className="sale_collection_item">
+                                <div className="sale_collection_btn">
+                                    <a href="#" className="link-button">Shop Sale Womens</a>
+                                </div>
+                                <div className="sale_collection_image">
+                                    <img src={womenSale} className="img-fluid" width="100%" alt="Dresses Sale" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="CTA_banner_section">
+                <div className="container py-5">
+                    <div className="row py-5">
+                        <div className="col-md-12 col-sm-12">
+                            <div className="CTA_banner_content">
+                                <h2>Holiday Shop</h2>
+                                <p>Get 20% off on your first purchase!</p>
+                                <a href="#" className="primary-button">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="image-content">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6 col-sm-12">
+                            <div className="image-container">
+                                <img src={greenLeafsImage} alt="green leafs with hands" />
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-sm-12 d-flex align-items-center">
+                            <div className="content-container">
+                                <h2 className="title">Our Fabrics</h2>
+                                <p className="description">Authentic, natural fibre fabrics like organic cotton and carefully sourced recycled fabrics are our material of choice because they are kinder to skin, producers and the planet.</p>
+                                <a href="#" className="link-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="instagram_feed_section">
+                <div className="container-fluid">
+                    <div className="row justify-content-center section-heading pb-0">
+                        <div className="col-md-8 col-sm-12 text-center">
+                            <h2 className="title">50% OFF SUMMER SALE</h2>
+                        </div>
+                    </div>
+                    <div className="row justify-content-center">
+
+                        <div className="col-md-2 col-sm-6">
+                            <div className="instagram-feed-card">
+                                <div className="insta-post">
+                                    <img src={instafeedOne} width="100%" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="instagram-feed-card">
+                                <div className="insta-post">
+                                    <img src={instafeedTwo} width="100%" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="instagram-feed-card">
+                                <div className="insta-post">
+                                    <img src={instafeedThree} width="100%" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="instagram-feed-card">
+                                <div className="insta-post">
+                                    <img src={instafeedFour} width="100%" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="instagram-feed-card">
+                                <div className="insta-post">
+                                    <img src={instafeedFive} width="100%" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="instagram-feed-card">
+                                <div className="insta-post">
+                                    <img src={instafeedSix} width="100%" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="row sec-btn mt-3">
+                        <div className="col-md-12 col-sm-12 pt-5">
+                            <a href="#" className="primary-button">Nomads Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="certification_section">
+                <div className="container-fluid">
+                    <div className="row justify-content-center section-heading pb-0">
+                        <div className="col-md-8 col-sm-12 text-center">
+                            <h2 className="title">OUR CERTIFICATIONS</h2>
+                            <p className="certification-description">We believe in doing our best for both people and the planet, holding ourselves accountable to globally recognised standards in organic textiles, ethical fashion and Fair Trade. This is about more than than simply assuring our customers – it’s important to us that our impact on the world is a positive one. <b>Our accreditations include:</b></p>
+                        </div>
+                    </div>
+                    <div className="row justify-content-center">
+
+                        <div className="col-md-2 col-sm-6">
+                            <div className="certification-card">
+                                <div className="product-image">
+                                    <img src={certificationsOne} width="px" height="170px" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="certification-card">
+                                <div className="product-image">
+                                    <img src={certificationsTwo} width="px" height="170px" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="certification-card">
+                                <div className="product-image">
+                                    <img src={certificationsThree} width="px" height="170px" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="certification-card">
+                                <div className="product-image">
+                                    <img src={certificationsFour} width="px" height="170px" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2 col-sm-6">
+                            <div className="certification-card">
+                                <div className="product-image">
+                                    <img src={certificationsFive} width="px" height="170px" alt="Product" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+      
         </div>
     )
 }

@@ -190,3 +190,151 @@ ul.social-media li i {
 .our_specialty_section .row {
   padding: 70px 40px;
 }
+.feature_products .product-details .product-title {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 25px;
+}
+.feature_products .product-details .product-sale-price {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.feature_products .product-details .product-regular-price {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+.feature_products .product-details {
+  text-align: center;
+}
+.feature_products .row {
+  padding: 40px 24px;
+}
+.feature_products .row h2 {
+  font-weight: 300;
+}
+.feature_products .row p.sub-title {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+a.primary-button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.sec-btn {
+  text-align: center;
+}
+a.link-button {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 12px 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.sale_collection_item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.sale_collection_btn {
+  text-align: center;
+  position: absolute;
+  z-index: 9;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 70%, rgba(0, 0, 0, 0.13) 76%, rgba(0, 0, 0, 0.3) 90%);
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  align-content: end;
+  padding-bottom: 25px;
+  transition: all linear 0.3s;
+}
+.sale_collection_section {
+  margin-top: 40px;
+}
+.sale_collection_image {
+  width: 100%; 
+  overflow: hidden;
+}
+.sale_collection_image img {
+  transition: all linear 0.3s;
+}
+.sale_collection_btn:hover ~ .sale_collection_image img {
+  transform: scale(1.1);
+  transition: all linear 0.3s;
+}
+.CTA_banner_section {
+  background-image: url('assets/image/holiday-shop-banner.webp');
+  background-size: cover;
+  background-position: top center;
+  padding: 170px 0;
+  margin-top: 50px;
+}
+.CTA_banner_section h2 {
+  font-size: 55px;
+  line-height: 65px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.CTA_banner_section p {
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.content-container h2 {
+  font-size: 19px;
+  line-height: 25px;
+  color: #000;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.content-container p {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.content-container .link-button {
+  color: #000;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+  padding: 0px 0px 3px 0px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid #444;
+}
+.instagram_feed_section h2.title {
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.instagram_feed_section {
+  padding: 70px 0;
+}
+.certification-description {
+  font-size: 14px;
+  width: 70%;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+}
+.certification_section h2.title {
+  font-weight: 300;
+}
